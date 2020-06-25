@@ -103,12 +103,24 @@ Press *Lauch Instance* button on the bottom.
 
 ### Associate Floating IP addresses <br/>
 Now you will be able to see your instance created as below.
-![instanceCreated](images/instanceCreated.png)
-Next step you have to take is associating *Floating IP addresses* with your instance.
-Click *Floating IPs* under *Network* from the sidebar. Then you will see an IP address not associated with any other instances. Click the *Associate* button to allocate that IP address to your instance.
-![IpAssociate](images/IpAssociate.png)
+<br/><br/>
+<img src="images/instanceCreated.png" width="1000" height="250" title="instanceCreated">
+
+
+<br/>
+Next step you have to take is associating *Floating IP addresses* with your instance.<br/>
+Click *Floating IPs* under *Network* from the sidebar. Then you will see an IP address not associated with any other instances. <br/>
+Click the *Associate* button to allocate that IP address to your instance.
+<br/><br/>
+<img src="images/IpAssociate.png" width="1000" height="250" title="IpAssociate">
+
+
+<br/>
 Then the wizard will be loaded. Select your instance port for *Port to be associated*.
-![IpAssociate2](images/IpAssociate2.png)
+<br/><br/>
+<img src="images/IpAssociate2.png" width="700" height="350" title="IpAssociate2">
+
+<br/>
 Now if you go back to *instances* under *Compute* again, you will see your instance created there with the Floating IP you have allocated. <br/><br/>
 <img src="images/Done.png" width="1000" height="250" title="Done">
 
