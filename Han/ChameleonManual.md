@@ -12,47 +12,67 @@ Go to [ChameleonHome] https://www.chameleoncloud.org/ and sign up. Then, ask PI 
 If you are added to the project, you will be able to access the Chameleon Dashboard. <br/>
 Clicking ```CHI@UC``` or ```CHI@TACC``` will lead you to the Dashboard.<br/>
 
-![dashboard|25%](images/dashboard.png)
+![dashboard|250x250](images/dashboard.png)
 
 Go to the Dashboard and either Create a key pair or Import your SSH public key.\
 If you have already generated your own SSH key pair, your public key could be found in ```~/.ssh/id_rsa.pub```. 
 <br/>
 
-![sshkey](images/sshkey.png)
+![sshkey|](images/sshkey.png)
 
 This key pair will be used when you attempt to run your docker image on Chameleon directly by using CLI.\
 For more info on docker and Chameleon, please refer to https://github.com/sagecontinuum/chameleon-client/. \
-Otherwise, for native use of Chameleon, follow the instruction below.\
+Otherwise, for native use of Chameleon, follow the instruction below.
 
 ### Create an instance
 
-1. Reserve a Node
-Go to the Dashboard again and click *Lease* under *Reservation* from the sidebar. Click on *Create Lease* then the wizard will be loaded.
-![reserveNode](images/reserveNode.png)
-Name your lease and decide the lease length. Maximum lease length is 7 days. 
-![reserveNode2](images/reserveNode2.png)
-Then find *Resource Properties* section and choose proper property for your use. For AI/ML related uses, you might want to choose *node_type* = *gpu_rtx_6000*.
-Lastly, indicate the number of Floating IP addresses needed for your use.
-![reserveNode3](images/reserveNode3.png)
+1. Reserve a Node <br/>
+Go to the Dashboard again and click *Lease* under *Reservation* from the sidebar. <br/>
+Click on *Create Lease* then the wizard will be loaded. <br/>
 
-2. Launch an Instance
-Once your reservation gets ACTIVE, launch a bare-metal instance on the node you have reserved.
-Click *instances* under *Compute* from the sidebar, and click *Launch Instance*, then the wizard will be loaded.
+![reserveNode|250x250](images/reserveNode.png)
+
+Name your lease and decide the lease length. Maximum lease length is 7 days. <br/>
+
+![reserveNode2|250x250](images/reserveNode2.png)
+
+Then find *Resource Properties* section and choose proper property for your use. <br/>
+For AI/ML related uses, you might want to choose *node_type* = *gpu_rtx_6000*. <br/>
+Lastly, indicate the number of Floating IP addresses needed for your use. <br/>
+
+![reserveNode3|250x250](images/reserveNode3.png)
+
+
+2. Launch an Instance <br/>
+Once your reservation gets ACTIVE, launch a bare-metal instance on the node you have reserved. \
+Click *instances* under *Compute* from the sidebar, and click *Launch Instance*, then the wizard will be loaded. <br/>
 ![instanceLaunch](images/instanceLaunch.png)
-Name your instance and associate it with your node (reservation). 
-![instanceNode](images/instanceNode.png)
-Then click *Source* in sidebar and choose OS image. If you want an image with CUDA installed, search for it. 
-![instanceImage](images/instanceImage.png)
-For AI/ML related uses, ```CC-Ubuntu18.04-CUDA10``` is highly recommended.
-![instanceImage2](images/instanceImage2.png)
-Then, click *Flavor* from the sidebar and check if it is correctly selected as *baremetal* flavor.
-![instanceFlavor](images/instanceFlavor.png)
-Then, click *Key Pair* from the sidebar and either Create a Pair or Import a Pair. In my case, I just allocated the key the I have registered previously.
-![instancekey](images/instancekey.png)
-If you have come so far, you now have basic configuration for your instance! 
-Press *Lauch Instance* button on the bottom.
 
-3. Associate Floating IP addresses
+Name your instance and associate it with your node (reservation). <br/>
+
+![instanceNode|250x250](images/instanceNode.png)
+
+Then click *Source* in sidebar and choose OS image. If you want an image with CUDA installed, search for it. <br/>
+
+![instanceImage](images/instanceImage.png)
+
+For AI/ML related uses, ```CC-Ubuntu18.04-CUDA10``` is highly recommended. <br/>
+
+![instanceImage2](images/instanceImage2.png)
+
+Then, click *Flavor* from the sidebar and check if it is correctly selected as *baremetal* flavor.<br/>
+
+![instanceFlavor](images/instanceFlavor.png)
+
+Then, click *Key Pair* from the sidebar and either Create a Pair or Import a Pair. <br/>
+In my case, I just allocated the key the I have registered previously. <br/>
+
+![instancekey](images/instancekey.png)
+
+If you have come so far, you now have basic configuration for your instance! <br/>
+Press *Lauch Instance* button on the bottom. 
+
+3. Associate Floating IP addresses <br/>
 Now you will be able to see your instance created as below.
 ![instanceCreated](images/instanceCreated.png)
 Next step you have to take is associating *Floating IP addresses* with your instance.
