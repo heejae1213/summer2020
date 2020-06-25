@@ -8,11 +8,11 @@ If you would like to know how to use Chameleon with docker images, refer to http
 
 ### Getting started
 
-Go to [ChameleonHome] https://www.chameleoncloud.org/ and sign up. Then, ask PI to get you added on the proper project.\
+Go to [ChameleonHome]https://www.chameleoncloud.org/ and sign up. Then, ask PI to get you added on the proper project.\
 If you are added to the project, you will be able to access the Chameleon Dashboard. <br/>
 Clicking ```CHI@UC``` or ```CHI@TACC``` will lead you to the Dashboard.<br/>
 
-![dashboard|250x250](images/dashboard.png)
+![dashboard|100x100](images/dashboard.png)
 
 Go to the Dashboard and either Create a key pair or Import your SSH public key.\
 If you have already generated your own SSH key pair, your public key could be found in ```~/.ssh/id_rsa.pub```. 
@@ -30,17 +30,17 @@ Otherwise, for native use of Chameleon, follow the instruction below.
 Go to the Dashboard again and click *Lease* under *Reservation* from the sidebar. <br/>
 Click on *Create Lease* then the wizard will be loaded. <br/>
 
-![reserveNode|250x250](images/reserveNode.png)
+![reserveNode|100x100](images/reserveNode.png)
 
 Name your lease and decide the lease length. Maximum lease length is 7 days. <br/>
 
-![reserveNode2|250x250](images/reserveNode2.png)
+![reserveNode2|100x100](images/reserveNode2.png)
 
 Then find *Resource Properties* section and choose proper property for your use. <br/>
 For AI/ML related uses, you might want to choose *node_type* = *gpu_rtx_6000*. <br/>
 Lastly, indicate the number of Floating IP addresses needed for your use. <br/>
 
-![reserveNode3|250x250](images/reserveNode3.png)
+![reserveNode3|100x100](images/reserveNode3.png)
 
 
 2. Launch an Instance <br/>
@@ -50,7 +50,7 @@ Click *instances* under *Compute* from the sidebar, and click *Launch Instance*,
 
 Name your instance and associate it with your node (reservation). <br/>
 
-![instanceNode|250x250](images/instanceNode.png)
+![instanceNode|100x100](images/instanceNode.png)
 
 Then click *Source* in sidebar and choose OS image. If you want an image with CUDA installed, search for it. <br/>
 
