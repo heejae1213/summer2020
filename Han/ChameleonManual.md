@@ -13,14 +13,16 @@ If you are added to the project, you will be able to access the Chameleon Dashbo
 Clicking ```CHI@UC``` or ```CHI@TACC``` will lead you to the Dashboard.<br/>
 
 <p align="center">
-<img src="images/dashboard.png" width="256" height="256" title="dashboard">
+<img src="images/dashboard.png" width="600" height="450" title="dashboard">
 </p>
 
 Go to the Dashboard and either Create a key pair or Import your SSH public key.\
 If you have already generated your own SSH key pair, your public key could be found in ```~/.ssh/id_rsa.pub```. 
 <br/>
 
-![sshkey|](images/sshkey.png)
+<p align="center">
+<img src="images/sshkey.png" title="sshkey">
+</p>
 
 This key pair will be used when you attempt to run your docker image on Chameleon directly by using CLI.\
 For more info on docker and Chameleon, please refer to https://github.com/sagecontinuum/chameleon-client/. \
@@ -32,11 +34,15 @@ Otherwise, for native use of Chameleon, follow the instruction below.
 Go to the Dashboard again and click *Lease* under *Reservation* from the sidebar. <br/>
 Click on *Create Lease* then the wizard will be loaded. <br/>
 
-![reserveNode|100x100](images/reserveNode.png)
+<p align="center">
+<img src="images/reserveNode.png" title="reserveNode">
+</p>
 
-Name your lease and decide the lease length. Maximum lease length is 7 days. <br/>
+<br/>Name your lease and decide the lease length. Maximum lease length is 7 days. <br/>
 
-![reserveNode2|100x100](images/reserveNode2.png)
+<p align="center">
+<img src="images/reserveNode2.png" width="600" height="450" title="reserveNode2">
+</p>
 
 Then find *Resource Properties* section and choose proper property for your use. <br/>
 For AI/ML related uses, you might want to choose *node_type* = *gpu_rtx_6000*. <br/>
