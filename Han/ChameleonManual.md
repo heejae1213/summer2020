@@ -110,13 +110,12 @@ Click *Floating IPs* under *Network* from the sidebar. Then you will see an IP a
 Then the wizard will be loaded. Select your instance port for *Port to be associated*.
 ![IpAssociate2](images/IpAssociate2.png)
 Now if you go back to *instances* under *Compute* again, you will see your instance created there with the Floating IP you have allocated. <br/><br/>
-<img src="images/sshLogin.png" width="500" height="300" title="sshLogin">
+<img src="images/Done.png" width="1000" height="250" title="Done">
 
 
 ## Accessing your instance <br/>
 Once your instance has launched with an associated Floating IP address. <br/>
 You can log in to your Chameleon instance via SSH using the **cc user account and your floating IP address**. <br/>
-If your floating IP address was 192.5.87.31, you should use the command: ```ssh cc@192.5.87.31```. <br/>
+If your floating IP address was 192.5.87.31, you should use the command: ```ssh cc@192.5.87.31```. <br/><br/>
 
-
-<img style="width: 60px; height: auto; " src="images/sshLogin.png" title="sshLogin"/>
+<img src="images/sshLogin.png" width="500" height="300" title="sshLogin">
