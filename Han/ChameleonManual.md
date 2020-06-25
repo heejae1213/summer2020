@@ -13,7 +13,7 @@ If you are added to the project, you will be able to access the Chameleon Dashbo
 Clicking ```CHI@UC``` or ```CHI@TACC``` will lead you to the Dashboard.<br/>
 
 <p align="center">
-<img src="/images/dashboard.png" width="256" height="256" title="dashboard">
+<img src="images/dashboard.png" width="256" height="256" title="dashboard">
 </p>
 
 Go to the Dashboard and either Create a key pair or Import your SSH public key.\
