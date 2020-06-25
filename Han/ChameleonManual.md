@@ -1,6 +1,6 @@
 img[src*="#size"] {
-   width:250px;
-   height:100px;
+   width:50px;
+   height:50px;
 }
 
 ## How to use Chameleon
