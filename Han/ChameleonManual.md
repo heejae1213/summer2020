@@ -119,4 +119,4 @@ You can log in to your Chameleon instance via SSH using the **cc user account an
 If your floating IP address was 192.5.87.31, you should use the command: ```ssh cc@192.5.87.31```. <br/>
 
 
-<img style="max-width: 100px; height: auto; " src="images/sshLogin.png" title="sshLogin"/>
+<img style="width: 60%; height: auto; " src="images/sshLogin.png" title="sshLogin"/>
