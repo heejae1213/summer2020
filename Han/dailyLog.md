@@ -1,14 +1,22 @@
 # Daily Log - Hazel Han
 
-Daily log of Research Intern at Argonne National Laboratory. (Summer 2020)
-
 ## Week 1 (June 1 to June 5)
 
-### June 1
+### Monday June 1, 2020
 
 * First day at work. Participated in orientations and trainings.  
 
-### June 2
+### Tuesday June 2, 2020
 
-* Learning about Agile and Docker.
-* Exploring Sage Github repo and Waggle AI@Edge Platform.
+* Learning Agile and Docker.
+* Exploring Sage Github repo.
+
+### Wednesday June 3, 2020
+
+
+
+### Thursday June 4, 2020
+
+* 
+
+
