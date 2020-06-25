@@ -1,8 +1,3 @@
-img[src*="#size"] {
-   width:50px;
-   height:50px;
-}
-
 ## How to use Chameleon
 
 This step-by-step instruction will guide you on how to use Chameleon.\
@@ -17,7 +12,9 @@ Go to [ChameleonHome]https://www.chameleoncloud.org/ and sign up. Then, ask PI t
 If you are added to the project, you will be able to access the Chameleon Dashboard. <br/>
 Clicking ```CHI@UC``` or ```CHI@TACC``` will lead you to the Dashboard.<br/>
 
-![dashboard](images/dashboard.png#size)
+<p align="center">
+<img src="/images/dashboard.png" width="256" height="256" title="dashboard">
+</p>
 
 Go to the Dashboard and either Create a key pair or Import your SSH public key.\
 If you have already generated your own SSH key pair, your public key could be found in ```~/.ssh/id_rsa.pub```. 
