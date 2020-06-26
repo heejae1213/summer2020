@@ -55,32 +55,28 @@ Lastly, indicate the number of Floating IP addresses needed for your use. <br/>
 
 ### Launch an Instance <br/>
 Once your reservation gets ACTIVE, launch a bare-metal instance on the node you have reserved. \
-Click *instances* under *Compute* from the sidebar, and click *Launch Instance*, then the wizard will be loaded. <br/>
+Click <em>instances</em> under *Compute* from the sidebar, and click <strong>Launch</strong> Instance*, then the wizard will be loaded. 
 
-<p align="center">
+<br/><br/>
 <img src="images/instanceLaunch.png" title="instanceLaunch">
-</p>
-
-<br/>
-Name your instance and associate it with your node (reservation). <br/>
-
-<p align="center">
-<img src="images/instanceNode.png" width="500" height="500" title="instanceNode">
-</p>
 
 
-Then click *Source* in sidebar and choose OS image. If you want an image with CUDA installed, search for it. <br/>
-For AI/ML related uses, ```CC-Ubuntu18.04-CUDA10``` is highly recommended. <br/>
+Name your instance and associate it with your node (reservation). 
 
-<p align="center">
-<img src="images/instanceImage.png" width="500" height="500" title="instanceImage">
-</p>
+<br/><br/>
+<img src="images/instanceNode.png" width="600" height="350" title="instanceNode">
 
-<br/>
 
-<p align="center">
-<img src="images/instanceImage2.png" width="500" height="500" title="instanceImage2">
-</p>
+Then click <em>Source</em> in sidebar and choose OS image. If you want an image with CUDA installed, search for it. <br/>
+For AI/ML related uses, ```CC-Ubuntu18.04-CUDA10``` is highly recommended. 
+
+<br/><br/>
+<img src="images/instanceImage.png" width="600" height="350" title="instanceImage">
+
+
+<br/><br/>
+<img src="images/instanceImage2.png" width="600" height="350" title="instanceImage2">
+
 
 <br/>
 Then, click <em>Flavor</em> from the sidebar and check if it is correctly selected as </em>baremetal</em> flavor.
@@ -107,7 +103,7 @@ Now you will be able to see your instance created as below.
 
 <br/>
 Next step you have to take is associating <em>Floating IP addresses</em> with your instance.<br/>
-Click <em>Floating IPs</em> under *Network* from the sidebar. Then you will see an IP address not associated with any other instances. <br/>
+Click <em>Floating IPs</em> under <em>Network</em> from the sidebar. Then you will see an IP address not associated with any other instances. <br/>
 Click the <em>Associate</em> button to allocate that IP address to your instance.
 <br/><br/>
 <img src="images/IpAssociate.png" width="1000" height="330" title="IpAssociate">
