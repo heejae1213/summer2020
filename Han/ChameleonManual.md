@@ -52,7 +52,7 @@ Lastly, indicate the number of Floating IP addresses needed for your use.
 
 ### 2. Launch an Instance <br/>
 Once your reservation gets ACTIVE, launch a bare-metal instance on the node you have reserved. <br/>
-Click <strong>instances</strong> under <strong>Compute</strong> from the sidebar, and click <strong>Launch</strong> Instance*, then the wizard will be loaded. 
+Click <strong>instances</strong> under <strong>Compute</strong> from the sidebar, and click <strong>Launch Instance</strong>, then the wizard will be loaded. 
 
 <br/>
 <img src="images/instanceLaunch.png" title="instanceLaunch">
@@ -65,7 +65,7 @@ Name your instance and associate it with your node (reservation).
 
 <br/>
 Then click <strong>Source</strong> in sidebar and choose OS image. If you want an image with CUDA installed, search for it. <br/>
-For AI/ML related uses, ```CC-Ubuntu18.04-CUDA10``` is highly recommended. 
+For AI/ML related uses, <code>CC-Ubuntu18.04-CUDA10</code> is highly recommended. 
 
 <br/><br/>
 <img src="images/instanceImage.png" width="600" height="350" title="instanceImage">
@@ -114,7 +114,7 @@ Then the wizard will be loaded. Select your instance port for <strong>Port to be
 <br/>
 Now if you go back to <strong>instances</strong> under <strong>Compute</strong> again, you will see your instance created there with the Floating IP you have allocated. 
 
-<br/><br/>
+<br/>
 <img src="images/Done.png" width="1000" height="250" title="Done">
 
 ## Accessing your instance <br/>
