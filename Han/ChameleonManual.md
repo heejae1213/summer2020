@@ -83,51 +83,49 @@ For AI/ML related uses, ```CC-Ubuntu18.04-CUDA10``` is highly recommended. <br/>
 </p>
 
 <br/>
-Then, click *Flavor* from the sidebar and check if it is correctly selected as *baremetal* flavor.<br/>
+Then, click <em>Flavor</em> from the sidebar and check if it is correctly selected as </em>baremetal</em> flavor.
 
-<p align="center">
-<img src="images/instanceFlavor.png" width="500" height="500" title="instanceFlavor">
-</p>
+<br/><br/>
+<img src="images/instanceFlavor.png" width="600" height="350" title="instanceFlavor">
 
 <br/>
-Then, click *Key Pair* from the sidebar and either Create a Pair or Import a Pair. <br/>
-In my case, I just allocated the key the I have registered previously. <br/>
+Then, click <em>Key Pair</em> from the sidebar and either Create a Pair or Import a Pair. <br/>
+In my case, I just allocated the key the I have registered previously. 
 
-<p align="center">
-<img src="images/instancekey.png" width="500" height="500" title="instancekey">
-</p>
+<br/><br/>
+<img src="images/instancekey.png" width="600" height="350" title="instancekey">
 
 <br/>
 If you have come so far, you now have basic configuration for your instance! <br/>
-Press *Lauch Instance* button on the bottom. 
+Press <em>Lauch Instance</em> button on the bottom. 
 
-### Associate Floating IP addresses <br/>
+### 3. Associate Floating IP addresses <br/>
 Now you will be able to see your instance created as below.
 <br/><br/>
 <img src="images/instanceCreated.png" width="1000" height="250" title="instanceCreated">
 
 
 <br/>
-Next step you have to take is associating *Floating IP addresses* with your instance.<br/>
-Click *Floating IPs* under *Network* from the sidebar. Then you will see an IP address not associated with any other instances. <br/>
-Click the *Associate* button to allocate that IP address to your instance.
+Next step you have to take is associating <em>Floating IP addresses</em> with your instance.<br/>
+Click <em>Floating IPs</em> under *Network* from the sidebar. Then you will see an IP address not associated with any other instances. <br/>
+Click the <em>Associate</em> button to allocate that IP address to your instance.
 <br/><br/>
-<img src="images/IpAssociate.png" width="1000" height="250" title="IpAssociate">
+<img src="images/IpAssociate.png" width="1000" height="330" title="IpAssociate">
 
 
 <br/>
-Then the wizard will be loaded. Select your instance port for *Port to be associated*.
+Then the wizard will be loaded. Select your instance port for <em>Port to be associated</em>.
 <br/><br/>
-<img src="images/IpAssociate2.png" width="700" height="350" title="IpAssociate2">
+<img src="images/IpAssociate2.png" width="700" height="300" title="IpAssociate2">
 
 <br/>
-Now if you go back to *instances* under *Compute* again, you will see your instance created there with the Floating IP you have allocated. <br/><br/>
+Now if you go back to <em>instances</em> under <em>Compute</em> again, you will see your instance created there with the Floating IP you have allocated. <br/><br/>
 <img src="images/Done.png" width="1000" height="250" title="Done">
 
 
 ## Accessing your instance <br/>
 Once your instance has launched with an associated Floating IP address. <br/>
 You can log in to your Chameleon instance via SSH using the **cc user account and your floating IP address**. <br/>
-If your floating IP address was 192.5.87.31, you should use the command: ```ssh cc@192.5.87.31```. <br/><br/>
+If your floating IP address was 192.5.87.31, you should use the command: ```ssh cc@192.5.87.31```. <br/>
 
 <img src="images/sshLogin.png" width="500" height="300" title="sshLogin">
