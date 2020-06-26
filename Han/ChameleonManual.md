@@ -10,14 +10,14 @@ If you would like to know how to use Chameleon with docker images, refer to http
 
 Go to [ChameleonHome](https://www.chameleoncloud.org/) and sign up. Then, ask PI to get you added on the proper project.<br/>
 If you are added to the project, you will be able to access the Chameleon Dashboard. <br/>
-Clicking ```CHI@UC``` or ```CHI@TACC``` will lead you to the Dashboard.
+Clicking <strong>CHI@UC</strong> or <strong>CHI@TACC</strong> will lead you to the Dashboard.
 
-<br/><br/>
+<br/>
 <img src="images/dashboard.png" width="500" height="300" title="dashboard">
 
 <br/>
 Go to the Dashboard and either Create a key pair or Import your SSH public key. <br/>
-If you have already generated your own SSH key pair, your public key could be found in ```~/.ssh/id_rsa.pub```. 
+If you have already generated your own SSH key pair, your public key could be found in <code>~/.ssh/id_rsa.pub</code>. 
 
 <br/><br/>
 <img src="images/sshkey.png" title="sshkey">
@@ -31,9 +31,9 @@ Otherwise, for native use of Chameleon, follow the instruction below.
 
 ### 1. Reserve a Node <br/>
 Go to the Dashboard again and click <strong>Lease</strong> under <strong>Reservation</strong> from the sidebar. <br/>
-Click on *Create Lease* then the wizard will be loaded. <br/>
+Click on <strong>Create Lease</strong> then the wizard will be loaded. <br/>
 
-<br/><br/>
+<br/>
 <img src="images/reserveNode.png" title="reserveNode">
 
 <br/>
@@ -43,8 +43,8 @@ Name your lease and decide the lease length. Maximum lease length is 7 days.
 <img src="images/reserveNode2.png" width="600" height="400" title="reserveNode2">
 
 <br/>
-Then find </strong>Resource Properties</strong> section and choose proper property for your use. <br/>
-For AI/ML related uses, you might want to choose </strong>node_type = gpu_rtx_6000</strong>. <br/>
+Then find <strong>Resource Properties</strong> section and choose proper property for your use. <br/>
+For AI/ML related uses, you might want to choose <strong>node_type = gpu_rtx_6000</strong>. <br/>
 Lastly, indicate the number of Floating IP addresses needed for your use. 
 
 <br/><br/>
@@ -54,7 +54,7 @@ Lastly, indicate the number of Floating IP addresses needed for your use.
 Once your reservation gets ACTIVE, launch a bare-metal instance on the node you have reserved. <br/>
 Click <strong>instances</strong> under <strong>Compute</strong> from the sidebar, and click <strong>Launch</strong> Instance*, then the wizard will be loaded. 
 
-<br/><br/>
+<br/>
 <img src="images/instanceLaunch.png" title="instanceLaunch">
 
 <br/>
@@ -63,7 +63,7 @@ Name your instance and associate it with your node (reservation).
 <br/><br/>
 <img src="images/instanceNode.png" width="600" height="350" title="instanceNode">
 
-
+<br/>
 Then click <strong>Source</strong> in sidebar and choose OS image. If you want an image with CUDA installed, search for it. <br/>
 For AI/ML related uses, ```CC-Ubuntu18.04-CUDA10``` is highly recommended. 
 
